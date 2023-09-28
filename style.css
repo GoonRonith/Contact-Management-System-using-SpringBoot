@@ -1,0 +1,264 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  
+  overflow: scroll;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+.container{
+  display: flex;
+}
+
+.contacts{
+  /* border: 3px solid blue; */
+  width: 100%;
+  margin-top: 15px;
+  overflow-y: scroll;
+  height: 850px;
+
+}
+
+#no-cnt{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.div_search{
+width: 100%;
+  margin-top: 15px;
+  overflow-y: scroll;
+  height: 850px
+}
+
+
+table tr img{
+  width: 50px;
+  border-radius: 25px;
+}
+
+
+
+
+
+.upper-cont{
+  width: 100%;
+  height: 70px;
+  border-bottom: 5px double purple;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+.upper{
+  /* border: 3px solid red; */
+  width: 100%;
+  height: 70px;
+  border-bottom: 5px double purple;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.upper .searchbar{
+  margin: 10px;
+  padding: 10px;
+  border:2px solid black;
+  width: 200px;
+  font-size: 25px;
+  border-radius: 25px;
+}
+
+
+.upper .profile-img{
+  padding: 15px;
+}
+.upper .profile-img img{
+  border:2px solid purple;
+  /* height: 10px; */
+  width: 45px;
+  border-radius: 25px;
+  
+}
+
+  button {
+            margin: 0;
+            padding: 0;
+            border: none;
+            background: none;
+            font: inherit;
+            cursor: pointer;
+        }
+
+        /* Define red button styles */
+        .red-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            background-color: #d9534f; /* Red color from Bootstrap */
+            color: #fff; /* White text color */
+            border: 1px solid #d9534f; /* Red border color */
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        }
+
+        /* Hover styles */
+        .red-button:hover {
+            background-color: #c9302c; /* Darker red on hover */
+            border-color: #ac2925; /* Darker border on hover */
+        }
+        
+        button {
+            margin: 0;
+            padding: 0;
+            border: none;
+            background: none;
+            font: inherit;
+            cursor: pointer;
+        }
+
+        /* Define green button styles */
+        .green-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            background-color: #5cb85c; /* Green color from Bootstrap */
+            color: #fff; /* White text color */
+            border: 1px solid #4cae4c; /* Green border color */
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        }
+
+        /* Hover styles */
+        .green-button:hover {
+            background-color: #449d44; /* Darker green on hover */
+            border-color: #398439; /* Darker border on hover */
+        }
+
+
+
+
+
+input{
+  border: none;
+  outline: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.sidebar{
+  height: 962px;
+  width: 300px;
+  background-color: #111827;
+  /* border: 3px solid rgb(197, 9, 9); */
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.sidebar .dash_img{
+  /* border: 3px solid rgb(197, 9, 9);  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 40px 0 0;
+}
+.sidebar .dash_img i{
+  font-size: 25px;
+  padding: 10px;
+  color: slateblue;
+}
+.sidebar .dash_img span{
+  font-size: 25px;
+  padding: 10px;
+  color: slateblue;
+}
+
+
+
+.sidebar .addContact{
+/* border: 3px solid rgb(197, 9, 9); */
+padding: 30px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+font-size: 17px;
+
+}
+.sidebar .addContact span{
+  padding: 30px;
+  font-size:larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+.sidebar .logout span{
+  padding: 30px;
+  font-size:larger;
+  font-family: 'Times New Roman', Times, serif;
+}
+.sidebar .logout i{
+  font-size: 26px;
+}
+
+.sidebar .addContact i{
+  /* width: 30px; */
+  font-size: 26px;
+
+}
+
+.sidebar .logout{
+/* border: 3px solid rgb(197, 9, 9); */
+padding: 20px;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+font-size: 17px;
+color: slateblue;
+
+}
+
+a{
+  text-decoration: none;
+  color: slateblue;
+}
+
+
+.sidebar .addContact:hover,.sidebar .logout:hover{
+  background-color: rgb(184, 207, 226);
+}
+
+
+
